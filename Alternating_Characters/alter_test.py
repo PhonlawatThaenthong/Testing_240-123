@@ -21,5 +21,15 @@ class alter_test(unittest.TestCase):
         input = "1@1@1@1"
         test = alternatingCharacters(input)
         self.assertIs(test,0)
+    
+    def test_longtext(self):
+        input = '''AABBABABBBBBABBABABBBBABBABABABBABBABBBBAAABBBBBBBBBBBABBBBBBBABBBBBBBBBBBBABBABBBBAABBBBBAAAABBBBBB'''
+        test = alternatingCharacters(input)
+        self.assertIs(test,62)
+
+    def test_extra(self):
+        input = "#@$()****"
+        test = alternatingCharacters(input)
+        self.assertIs(test,3)
 
     

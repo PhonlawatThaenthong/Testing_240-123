@@ -13,3 +13,27 @@ class Caesar_Testing(unittest.TestCase):
         number = 5
         test = caesarCipher(input,number)
         self.assertEqual('Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj',test)
+
+    def test_AAAA(self):
+        input = 'AAAA'
+        number = 6
+        test = caesarCipher(input,number)
+        self.assertEqual('GGGG',test)
+    
+    def test_mark(self):
+        input = 'mark'
+        number = 26
+        test = caesarCipher(input,number)
+        self.assertEqual('mark',test)
+    
+    def test_extra(self):
+        input = '%@#$'
+        number = 2
+        test = caesarCipher(input,number)
+        self.assertEqual('%@#$',test)
+
+    def test_number(self):
+        input = '3123212'
+        number = 21
+        test = caesarCipher(input,number)
+        self.assertEqual('3123212',test)
