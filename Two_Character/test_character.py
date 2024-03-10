@@ -46,3 +46,8 @@ class Two_character(unittest.TestCase):
         input = 'a#u&i@x$p'
         test = alternate(input)
         self.assertEqual(2,test)
+
+    def test_samenumber(self):
+        input = '222222222'
+        test = alternate(input)
+        self.assertEqual(0,test)

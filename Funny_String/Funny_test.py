@@ -225,6 +225,11 @@ class Test_Funny(unittest.TestCase):
         input = '23414'
         test = funnyString(input)
         self.assertEqual('Not Funny',test)
+    
+    def test_samenumber(self):
+        input = '1111111111'
+        test = funnyString(input)
+        self.assertEqual('Funny',test)
 
     
     

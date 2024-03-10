@@ -32,4 +32,15 @@ class Two_character(unittest.TestCase):
         input = ['uxf','vof','hmp']
         test = gridChallenge(input)
         self.assertEqual('NO',test)
+
+    def test_7(self):
+        input = ['EER','aAA','ABC']
+        test = gridChallenge(input)
+        self.assertEqual('NO',test)
+    
+    def test_8(self):
+        input = ['%1#','43!','$%#']
+        test = gridChallenge(input)
+        self.assertEqual('NO',test)
+    
     

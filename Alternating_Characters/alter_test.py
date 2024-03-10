@@ -31,5 +31,13 @@ class alter_test(unittest.TestCase):
         input = "#@$()****"
         test = alternatingCharacters(input)
         self.assertIs(test,3)
-
     
+    def test_number_with_text(self):
+        input = "dsadsd123123"
+        test = alternatingCharacters(input)
+        self.assertIs(test,0)
+
+    def test_samenumber(self):
+        input = "11111111111111"
+        test = alternatingCharacters(input)
+        self.assertIs(test,13)

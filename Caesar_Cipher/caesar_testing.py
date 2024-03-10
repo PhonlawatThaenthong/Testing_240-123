@@ -37,3 +37,15 @@ class Caesar_Testing(unittest.TestCase):
         number = 21
         test = caesarCipher(input,number)
         self.assertEqual('3123212',test)
+    
+    def test_samenumber(self):
+        input = '111111111111'
+        number = 14
+        test = caesarCipher(input,number)
+        self.assertEqual('111111111111',test)
+
+    def test_number_with_extra(self):
+        input = '11323%@#$'
+        number = 2
+        test = caesarCipher(input,number)
+        self.assertEqual('11323%@#$',test)
