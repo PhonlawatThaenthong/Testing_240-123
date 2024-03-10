@@ -33,13 +33,10 @@ class Test_Funny(unittest.TestCase):
         self.assertEqual('Not Funny',test)
 
     def test_verylongtext(self):
-        input = '''rtuntvyqsyqxqrxsvwryqytlpsxptxysxyuxztv
-        zwxzxzsyunpryzsytuxtxrvwzvzuopvwsywryqsvos
-        wrvxzrtxtywpuyvnvnotlprskltuxrvprzrvopwysk
-        lnqtvxzxrsxpqumuywqyryrxzunovzrytwxrvxqsux
-        ywqyzxystmrytzwztuounpxqyvntxyzvxruxqtlsuy
-        tzxpxqytxqwzuztyvwruzskrszxpuxtvnstmpxuntl
-        mpuovovyzwxpqrxzyvzvzwostvyvnorsvouvquxsyu
+        input = '''sdawfjsvxkncaksndjkwadjsahdahds
+        ajhdsajdhasjhdwudhuahdushuadhshdasjdskdjas
+        hduwduksajkdjahwdhsjahduisadhcuahcaxkcacjl
+        kasc;akcaskcoakowpdoadsadawdisicalkdawdasd
         yrvxptxtmtztvowstmqtmstysxpqrxtyuntwzystmq
         xprxuwszuxtyrtvprtwrxruxytwqwxyumopswstlrv
         zvqvxryuwsuzsuvwpvxpqrstwsxuxzsztwzstuwytw
@@ -166,21 +163,6 @@ class Test_Funny(unittest.TestCase):
         zutqovutyzrxsmtxvztrnuxztnvsrpxswuxvsrpwsp
         xzuryxwpxusywsnuqvourpxzytzrzwpvzurzxqwtsy
         zvutsyvqxwuqvtzvtqxuqvrnkszywqwvsoupxuyuzr
-        ywvzumuxpxuztqwvzxtqmtyutxqvpmuqwupmltswzy
-        rltysqxszryztovztqwqyusxvpvupvtqyrywszsyvt
-        qnvrkswzurpksqpowtzvzswvsytzvurzutswsqowsr
-        mtryuzrzyuztpvytxsnksrmuxsyxtzryuowrwswzyr
-        nvyrqouysryzxutsqwyvnvuywzvqywrmtrpvrxrxqv
-        usrnvnuxvryrqvyvuyvsomtowpwuouqwtrwqxtxtxu
-        ztyqpwvtyrowpwuszyurqwsqoksqyrytnumusqysrw
-        pvusyumtltxwtsxzvyxwqxszytrnvrwrzurzutxpvz
-        utywuqwtpxqpvpvpxupxutsqvqmuqvnksqltszvzwy
-        vnuqowvrzxsnupnvusyryxztxsxuspltmtpwvnvzvu
-        yqvuxurwqouzxvrovtoupovqysnvuzuqwysysqyxws
-        qyurxztowvtsrqwvrltqksxsztrwomltrpvtqvryzx
-        tsyxzyqyrpnvspvuqpxpmltsytyvrqvyqvtrovowow
-        urysqvowvtxtyutxqomusyvzvyqxqwytrovsxrwqwv
-        sqltqyqvpwzytzuxrpksltzxqyzurwsowqpwtrourx
         tqyunuqwupnuspvqpxryusowrxqwutzytrzxrzuqmu
         sywqyvqvytzsrzvowuzuswrqwupvysyunvtponvqmt
         pmuxvrqonmtqlkszrzryvzrqvqwusqxwytqpmuyrmt
